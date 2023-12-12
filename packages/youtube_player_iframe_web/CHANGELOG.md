@@ -1,3 +1,13 @@
+## 2.0.2
+- Register as federated Web implementation package for `youtube_player_iframe`.
+
+## 2.0.1
+- Adds auto registration of the `WebYoutubePlayerIframePlatform` implementation.
+
+## 2.0.0
+- Fixed video playback issues.
+- Bumped dependencies.
+
 ## 1.0.4
 - Bumped dependencies.
 
