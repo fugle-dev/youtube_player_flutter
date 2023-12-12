@@ -1,4 +1,36 @@
 # Changelog
+## 4.0.4
+**Jan 29, 2023**
+- Fixed platform listing in pub.dev
+
+## 4.0.3
+**Jan 29, 2023**
+- Endorse `youtube_player_iframe_web` as default web implementation package.
+
+## 4.0.2
+**Jan 27, 2023**
+- Upgraded dependencies.
+- Fixed issue with `YoutubePlayerController.close`.
+- Exposed `YoutubePlayerValue`.
+
+## 4.0.1
+**Dec 26, 2022**
+- Fixed video playback issue in web release.
+
+## 4.0.0
+**Dec 25, 2022**
+
+**Breaking Change**
+- Fixed video playback issues in web for some videos.
+- Deprecated params in v3 has been removed.
+- Deprecated `YoutubePlayerIFrame` has been removed.
+- `YoutubePlayer.controller` is now required.
+- `YoutubePlayerController.onInit` has been removed. As unlike before, the controller is available as soon as it's created.
+- `YoutubePlayerController.getCurrentPositionStream` has been deprecated in favor of `YoutubePlayerController.videoStateStream`.
+- `YoutubePlayerController.onFullscreenChange` has been deprecated in favor of `YoutubePlayerController.setFullScreenListener`.
+- Added support for specifying `YoutubePlayerParams.pointerEvents`. Thanks to [@keithcwk](https://github.com/keithcwk).
+- Added [FullscreenYoutubePlayer].
+- Upgraded dependencies.
 
 ## 3.1.0
 **Sep 15, 2022**
